@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Display Data</title>
+</head>
+<body>
+    <h1>Submitted Data</h1>
+    <ul>
+        <% data.forEach(entry => { %>
+            <li>
+                Name: <%= entry.name %>, Email: <%= entry.email %>
+                <% if (entry.file) { %>
+                    <br>Uploaded File: 
+                    <a href="<%= entry.file.path %>" download="<%= entry.file.originalName %>">Download</a>
+                <% } %>
+            </li>
+        <% }) %>
+    </ul>
+    <a href="/">Submit More Data</a>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Rock",
+    "email": "rock@test.com"
+  },
+  {
+    "name": "John",
+    "email": "john@test.com"
+  },
+  {
+    "name": "Sam",
+    "email": "sam@test.com",
+    "file": {
+      "originalName": "Test",
+      "path": "/uploads/Test"
+    }
+  },
+  {
+    "name": "Test",
+    "email": "Tes@mail.com",
+    "file": {
+      "originalName": "Test",
+      "path": "/uploads/Test"
+    }
+  }
+]
